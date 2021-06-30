@@ -16,7 +16,7 @@ class Bird {
       pos.y = mouseY;
       var angle = this.body.angle;
   
-      push();
+      //push();
       translate(pos.x, pos.y);
       rotate(angle);
       strokeWeight(3);
@@ -24,7 +24,7 @@ class Bird {
       fill('red')
       rectMode(CENTER)
       rect(0, 0, this.width, this.height);
-      pop();
+      //pop();
     };
   };
   
